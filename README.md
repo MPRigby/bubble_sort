@@ -1,1 +1,1 @@
-Sorts an array of numbers in ascending order, using bubble sort method.  Programmed in ruby; includes an Rspec test suite.
+bubble_sort method sorts an array of numbers or strings in ascending order; bubble_sort_by sorts input array, using a block input from the user which defines how the objects in the array will be sorted.  Programmed in ruby; includes an Rspec test suite.
