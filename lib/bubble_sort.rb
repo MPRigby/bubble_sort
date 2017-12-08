@@ -9,7 +9,6 @@ class BubbleSort
         swapped = false
         output.each_with_index.map do |value, index|
           break if (index+1) >= output.length
-          #puts "poop" if ((value.is_a? String) == true)
           if (((value.is_a? String) == true) && (value.casecmp(output[index+1]) > 0)) || (((value.is_a? String) == false) && ((value <=> output[index+1]) > 0))
             output[index], output[index+1] = output[index+1], value
             swapped = true
